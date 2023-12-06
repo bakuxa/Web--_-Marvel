@@ -1,0 +1,34 @@
+body {
+    margin-top: 20px;
+	padding: 1rem;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #111;
+}
+
+.news-block {
+    margin-top: px;
+    font-size: 25px;
+    /* border: 1px solid #ccc; */
+    padding: 50px;
+    margin-bottom: 30px;
+    width: 1000px; /* Задайте нужную ширину блока в пикселях или других единицах измерения */
+    box-sizing: border-box; /* Учитывает границы и внутренний отступ в общей ширине блока */
+}
+
+.news-block h6.date {
+    color: #999; /* Цвет текста даты */
+    font-style: italic; /* Курсивное начертание текста даты */
+    margin-top: 10px; /* Отступ сверху для даты */
+}
+
+
+.news-block h2 {
+    color: #333; /* Цвет заголовка новости */
+}
+
+.news-block p {
+    color: #666; /* Цвет текста новости */
+}
